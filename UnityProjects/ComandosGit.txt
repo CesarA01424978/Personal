@@ -1,0 +1,22 @@
+clear					---	Limpiar la consola.
+cd /c/Users/Josephe/Desktop...		---	Para ir a la ruta que deseemos hacer cambios.
+git init				---	Para iniciar el repositorio (se crea la carpeta .git transparente).
+git config user.name "Usuario"		---	Para dar datos del usuario.
+git config user.email "A@tec.mx"	---	Para dar correo del usuario.
+git remote add origin "https://gith..."	---	Especificar la ruta de origen. (Hacer solo la primera vez)
+git status				---	Para ver los cambios.
+git add nombre.txt			---	Para agregar los cambios.
+git add .				---	Para agregar TODOS los cambios hechos.
+git commit -m "Comentario"		---	Para agregar los cambios al repositorio remoto con comentario de actualización.
+git push -u origin master		---	Para subir los cambios al repositorio remoto (origin es el nombre del repositorio remoto y master es la rama asociada).
+git clone https://url.com		---	Bajar todos cambios.
+git pull origin master			---	Bajar solo un cambio.(origin = nombre del repositorio remoto, master = rama asociada).
+git branch				---	Dice en qué rama estás trabajando.
+git branch nombre			---	Para hacer una rama con el nombre que deseemos.
+git branch -m nombreActual nomNuevo	---	Cambiar el nombre de la rama en la que estás trabajando.
+git checkout nombre			--- 	Ir a la rama con el nombre mencionado.
+git branch -d nombre			--- 	Borrar la rama mencionada (no se puede si estás en ella, necesitas moverte con el comando anterior).
+touch "nombre.txt"			---	Crea un txt.
+git diff rama1 rama2			---	Ver diferencias entre las ramas (el primero puede ser el base para ver lo que se agregó antes).
+git marge rama1 master			--- 	Para agregar actualización de la rama1 a marge (nota: se debe estar en la rama base para que funcione).
+	
