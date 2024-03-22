@@ -1,0 +1,121 @@
+*{
+	margin:0;
+	padding:0;
+	color:#fff; /*color de letras*/
+}
+body{
+	background:url(../imagenes/estrellas.jpg);
+	font-family: Baskerville Old Face;
+}
+h1 {
+	text-shadow:3px 3px 6px #fff;
+	width:100%;
+	height:11%;
+	color:#fff;
+	font-size:600%;	
+}
+h2, h3 {
+	text-align: center;
+}
+header, .main, footer {
+	width:90%;
+	max-width:1300px;
+	margin:20px auto;	
+}
+nav ul a {
+	display:block;
+	color:#000;
+	text-decoration:none;
+	font-size:150%;
+	padding:10px;
+	letter-spacing:2px; /*espacio entre cada letra*/
+	text-align:center;
+}
+nav ul li {
+	background-color:#fff;
+}
+nav ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+nav ul li {
+	position:relative;
+	float:left;
+	margin:5px;
+	padding:5px;
+	width: 15%;
+}
+nav ul li:hover {
+	background:#05D9B6;
+	color:#fff;
+}
+nav ul ul {
+	display:none; /*aparece submenú sólo cuando pasan sobre él*/
+	position:absolute; /*hace que no se mueva el contenido cuando el menú se despliegue*/
+	top:100%; /*distancia a la que aparecerá el menú*/
+	left:-25; /*distancia de los lados en el menú desplegable*/
+	padding:0; /*distancia a lo largo en el menú desplegable*/
+}
+nav ul ul li {
+	float:none; /*quita el espacio del float*/
+	width:100%; /*tamaño del cuadro*/
+}
+nav ul ul a {
+	line-height:20%; /*altura del cuadro*/
+	padding:10px 15px; /*tamaño del cuadro al texto*/
+}
+nav ul li:hover > ul {
+	display:block; /*convierte el elemento en bloque*/
+}
+.main .articles {
+	width:68.5%;
+	margin-left:1.5%; /*margen de separacion con el cuadro de "aparte"*/
+	float:left;
+	text-align:justify;
+}
+.main .articles article {
+	padding:20px;
+	background:#000;
+	margin-bottom:20px;
+	border:5px double #fff;
+}
+aside {
+	width:30%;
+	float:left;
+	background:#515151;
+	padding:20px;
+	box-sizing:border-box;
+	text-align: justify;
+	border:5px dashed #000;
+}
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.ima {
+	float:left;
+}
+footer {
+	background:#000;
+	color:#fff;
+	clear:both; /*limpia los rastros de los floatleft*/
+	padding:10px 0px;
+	text-align:center;
+	border:2px solid #fff;
+}
+p {
+	font-size:125%;
+}
+q {
+	color:000;
+	text-align:center;
+	font-size:125%;
+}

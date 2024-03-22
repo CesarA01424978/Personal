@@ -1,0 +1,41 @@
+body{
+	background:url(../imagenes/FN.jpg);
+	font-family: Baskerville Old Face;
+}
+header{
+	
+	text-shadow:5px 5px 5px #fff;
+	width:100%;
+	height:10%;
+	background:#000000;
+	color:#fff;
+	font-size: 30px;
+	
+}
+p{
+	text-align:justify;
+	font-size: 110%;
+	width:60%;
+	hieght:200px;
+	background:#000000;
+	margin:20px 50px;
+	padding:30px;
+	border:5px solid #ffffff;
+	color:#ffffff;
+	
+}
+div{
+	background:url(../imagenes/x4.gif);
+	width:70%;
+}
+contenedor:hover > img{
+	transform:scale(.9);
+}
+footer{
+	background:#000000;
+	color:#fff;
+	clear:both;
+	padding:10px 0px;
+	font-family: Broadway;
+	text-align:center;
+}
