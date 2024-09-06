@@ -1,0 +1,2 @@
+Inflate: era leer el XML para generar una vista y la pega en la activity
+intente lleva el contexto y a donde lo llevamos, se abre con strart activity si no borramos la queu
